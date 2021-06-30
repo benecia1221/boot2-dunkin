@@ -1,0 +1,11 @@
+@media(max-width: 768px) {
+  #hd #myMenu {display:none}
+  #hd #myMenu_Moblie {position:absolute;top:0;right:0;z-index:100}
+  #hd .menuButton {display:block;cursor:pointer;position:absolute;top:3%;right:3%;z-index:100}
+  #hd .menuButton img {width:50px;}
+
+  #fullpage .slide .slide_title {}
+  #fullpage .slide .slide_title h2 {font-size:3rem}
+  #fullpage .slide .slide_title span {font-size:1.5rem}
+  #fullpage .slide .slide_img img {display:none;width:50%}
+}

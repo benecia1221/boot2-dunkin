@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>NSC과정 김희민, 부트스트랩|TOM N TOMS</title>
+
+  <!--SEO 최적화 -->
+  <meta property="og:title" content="NCS과정 김희민 부트스트랩-던킨도넛">
+  <meta property="og:type" content="website"/>
+  <meta property="og:url" content="//">
+  <meta property="og:image" content="http://heemin12.cafe24.com/dunkin/img/seoImge.jpg" />
+  <meta property="og:description" content="NCS과정 김희민 부트스트랩 포트폴리오입니다.">
+
+
+  <!--favicon -->
+  <link rel="shortcut icon" href="img/icon.png">
+
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="asset/css/bootstrap.min.css">
+
+  <!-- plugin css -->
+  <link rel="stylesheet" href="asset/css/jquery.fullpage.css">
+  <link rel="stylesheet" href="asset/css/animate.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- my css -->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/heemin.css">
+  <link rel="stylesheet" href="css/heeminMobilde.css">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-S5VENSQC54"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-S5VENSQC54');
+  </script>
+
+
+  <!-- jquery -->
+  <script src="asset/js/jquery-3.3.1.slim.min.js"></script>
+  <script src="asset/js/popper.min.js"></script>
+  <script src="asset/js/bootstrap.min.js"></script>
+
+  <!-- plugin js -->
+  <script src="asset/js/jquery.fullpage.js"></script>
+  <script src="asset/js/wow.min.js"></script>
+  <script>
+    new wow(),init();
+  </script>
+
+  <!-- my js -->
+  <script src="js/heeminJS.js" defer></script>
+
+
+</head>
+<body id="page_top">
+  <div id="hd">
+    <h1>
+      <img src="img/logo.png" alt="던킨도넛">
+    </h1>
+    <ul id="myMenu" class="text-center">
+      <li data-menuanchor="firstPage" class="active"><a href="#firstPage">대표메뉴</a></li>
+      <li data-menuanchor="secondPage"><a href="#secondPage">이벤트</a></li>
+      <li data-menuanchor="thirdPage"><a href="#thirdPage">해피오더</a></li>
+      <li data-menuanchor="fourthPage"><a href="#fourthPage">신메뉴</a></li>
+      <li data-menuanchor="lastPage"><a href="#lastPage">콜라보레이션</a></li>
+    </ul>
+    <div class="menuButton">
+      <img src="img/menu.png" alt="">
+    </div>
+    <div id="myMenu_Moblie">
+      <ul class="mobilde_menuList">
+        <li data-menuanchor="firstPage" class="active"><a href="#firstPage">대표메뉴</a></li>
+        <li data-menuanchor="secondPage"><a href="#secondPage">이벤트</a></li>
+        <li data-menuanchor="thirdPage"><a href="#thirdPage">해피오더</a></li>
+        <li data-menuanchor="fourthPage"><a href="#fourthPage">신메뉴</a></li>
+        <li data-menuanchor="lastPage"><a href="#lastPage">콜라보레이션</a></li>
+      </ul>
+    </div>
+  </div>
+  <div id="fullpage">
+    <div class="fullSection">
+      <div class="slide main1" data-anchor="slide1">
+        <div class="h-100">
+            <div class="mx-auto">
+                <div class="slide_title animate__animated animate__fadeInUp">
+                  <h2 class="mx-auto my-0">소금靑 메뉴 출시!</h1>
+                  <span class="mx-auto mt-2 mb-5">영국 왕실에서 사용하는 130년 역사의 소금 브랜드 사용</span>
+                  <a class="btn js-scroll-trigger" href="#about">자세히 알아보기</a>
+                </div>
+                <div class="slide_img">
+                  <img src="img/main1.png" alt="슬라이드1이미지" class="animate__animated animate__fadeInUp animate__delay-.7s">
+                </div>
+            </div>
+        </div>
+      </div>
+      <div class="slide main2" data-anchor="slide2">
+        <div class="h-100">
+            <div class="mx-auto text-white">
+                <div class="slide_title">
+                  <h2 class="mx-auto my-0 text-white">던킨 X 프링글스</h1>
+                  <span class="mx-auto mt-2 mb-5">던킨과 프링글스가 만나 세상에 없는 도넛 탄생!</span>
+                  <a class="btn js-scroll-trigger" href="#about">자세히 알아보기</a>
+                </div>
+                <div class="slide_img">
+                  <img src="img/main2.png" alt="슬라이드2이미지1">
+                  <img src="img/main2_2.png" alt="슬라이드2이미지2">
+                </div>
+            </div>
+        </div>
+      </div>
+      <div class="slide main3 text-white" data-anchor="slide3">
+        <div class="h-100">
+            <div class="mx-auto">
+                <div class="slide_title">
+                  <h2 class="mx-auto my-0 text-white">던킨 디카페인</h1>
+                  <span class="mx-auto mt-2 mb-5">커피는 먹고싶지만 카페인은 싫은 분들을 위한 향이 풍부한 던킨 디카페인!</span>
+                  <a class="btn js-scroll-trigger" href="#about">자세히 알아보기</a>
+                </div>
+                <div class="slide_img">
+                  <img src="img/main3.png" alt="슬라이드3이미지">
+                </div>
+            </div>
+        </div>
+      </div>
+      <div class="slide main4" data-anchor="slide4">
+        <div class="h-100">
+            <div class="mx-auto">
+                <div class="slide_title">
+                  <h2 class="mx-auto my-0">해피-E마켓</h1>
+                  <span class="mx-auto mt-2 mb-5">해피앱, G마켓부터 카카오선물까지! 던킨으로 선물하세요!</span>
+                  <a class="btn js-scroll-trigger" href="#about">자세히 알아보기</a>
+                </div>
+                <div class="slide_img">
+                  <img src="img/phone_hand.png" alt="슬라이드4이미지">
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="fullSection youtube_section" style="background:url('img/ti344a13202_l.jpg') center no-repeat;background-size:cover">
+      <div class="container-xl event_section">
+        <div class="row justify-content-center align-items-center">
+          <div class="youtube_link col-12 col-md-6">
+            <div>
+              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/iLkIFSBAQcg?list=PLaoYJk3DWW99y7C6g575JC6X6nfHoeVfT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="event_ul col-12 col-md-6 text-center animate__animated">
+            <h2>EVENT</h2>
+            <ul class="row">
+              <li class="col event_li">
+                <figure class="snip1200">
+                  <img src="img/event1.jpg" alt="6월 이달의 도넛 EVENT">
+                  <figcaption>
+                    <a href="#">
+                      <div class="event_back">
+                        <div class="event_text">
+                          <span>커피/음료를 구매하고,
+                            <br />
+                            쿠폰을 제시하면
+                            <br />
+                          </span>
+                          <span class="yellow_color">소금도넛이 FREE!!</span>
+                          <span class="fontSize8">(2021-06-04~2021-06-12)</span>
+                        </div>
+                      </div>
+                    </a>
+                  </figcaption>
+                </figure>
+                <h3>6월 이달의 도넛</h3>
+              </li>
+              <li class="col event_li">
+                <figure class="snip1200">
+                  <img src="img/event2.jpg" alt="글레이즈드팩 매주 금요일 할인">
+                  <figcaption>
+                    <a href="#">
+                      <div class="event_back">
+                        <div class="event_text">
+                          <span>매주 금요일
+                            <br />
+                            페이머스 글레이즈드팩
+                            <br />
+                          </span>
+                          <span class="yellow_color">6개입 5,900원
+                            <br />
+                            12개입10,900원</span>
+                          <span class="fontSize8">(2020-06-01~)</span>
+                        </div>
+                      </div>
+                    </a>
+                  </figcaption>
+                </figure>
+                <h3>DONUT FRIDAY</h3>
+              </li>
+              <li class="col event_li">
+                <figure class="snip1200">
+                  <img src="img/event3.jpg" alt="프링글스콜라보 도넛할인 EVENT">
+                  <figcaption>
+                    <a href="#">
+                      <div class="event_back">
+                        <div class="event_text">
+                          <span>프링글스콜라보 도넛 포함,
+                            <br />
+                            1만원 이상 구매시
+                            <br />
+                          </span>
+                          <span class="yellow_color">프링글스 보냉팩2,900원</span>
+                          <span class="fontSize8">(2020-06-01~)</span>
+                        </div>
+                      </div>
+                    </a>
+                  </figcaption>
+                </figure>
+                <h3>던킨X프링글스</h3>
+              </li>
+              <li class="col event_li">
+                <figure class="snip1200">
+                  <img src="img/event4.jpg" alt="브랜드 정기 기획전 할인 EVENT">
+                  <figcaption>
+                    <a href="#">
+                      <div class="event_back">
+                        <div class="event_text">
+                          <span>브랜드 정기 기획전!
+                            <br />
+                          </span>
+                          <span class="yellow_color">최대 30% OFF</span>
+                          <span class="fontSize8">(2021-02-03~)</span>
+                        </div>
+                      </div>
+                    </a>
+                  </figcaption>
+                </figure>
+                <h3>던킨X11번가</h3>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div id="E-market" class="fullSection">
+      <div class="container-lg">
+        <div class="title text-center">
+          <h3>HAPPY ORDER</h3>
+          <span class="d-block my-2">언제 어디서나 편하게 즐기는 던킨
+            <br />
+            <span class="textBold">원하는 날짜, 시간</span>까지 정해서 <span class="textBold">배송, 픽업</span>이 가능하다!!
+          </span>
+        </div>
+        <div class="row pt-4">
+          <div class="order_image col-4">
+            <img src="img/order_hand.jpg" alt="">
+          </div>
+          <div class="col-8 order_contents text-center p-4">
+            <h3 class="textBold mb-2">HOW TO ORDER</h3>
+            <div>
+              <ol class="row order_ol">
+                <li class="col">
+                  <img src="img/order_contents1.png" alt="">
+                  <h4 class="mt-3 textBold">STEP1</h4>
+                  <span class="pt-2 d-block"><span class="point textBold">해피포인트 APP</span>에 접속해</span>
+                  <span class="d-block">해피마켓 > 해피오더 클릭</span>
+                </li>
+                <li class="col">
+                  <img src="img/order_contents2.png" alt="">
+                  <h4 class="mt-3 textBold">STEP2</h4>
+                  <span class="pt-2 d-block">원하는 제품을 골라</span>
+                  <span class="d-block"><span class="point textBold">픽업 or 배달</span> 요청 후</span>
+                  <span class="d-block">결제하면 주문 완료!</span>
+                </li>
+                <li class="col">
+                  <img src="img/order_contents3.png" alt="">
+                  <h4 class="mt-3 textBold">STEP3</h4>
+                  <span class="pt-2 d-block"><span class="point textBold">원하는 날짜, 시간</span>에</span>
+                  <span class="d-block">배송 또는 픽업</span>
+                </li>
+              </ol>
+            </div>
+          </div>
+        </div>
+        <div class="emart_app row mt-3">
+          <div class="download happypoint bg-white col p-2">
+            <div class="row">
+              <div class="col-3">
+                <a href="#"><img src="img/happypoint.png" alt="해피포인트앱 다운로드"></a>
+              </div>
+              <div class="col-9">
+                <h3 class="textBold">해피포인트 APP</h3>
+                <p> 매장에서 포인트를 적립/사용할 수 있고, 다양한 제휴처에서 할인/적립할 수 있는 생활 속의 필수 멤버십 서비스</p>
+                <a href="#" class="appDown_link textBold">다운로드</a>
+              </div>
+            </div>
+          </div>
+          <div class="download happyorder bg-white col p-2">
+            <div class="row">
+              <div class="col-3">
+                <a href="#"><img src="img/happyorder.png" alt="해피오더 다운로드"></a>
+              </div>
+              <div class="col-9">
+                <h3 class="textBold">해피오더 APP</h3>
+                <p>SPC브랜드 배달/픽업 전용 서비스</p>
+                <a href="#" class="appDown_link textBold">다운로드</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="fullSection second">
+      <div class="container summerMenu text-center">
+        <h2 class="mb-4 titleFont2 animate__animated" >COLLABOSATION NEW MENU</h2>
+        <div class="collaboMenu">
+          <h3 class="textBold">던킨 X 프링글스</h2>
+          <span class="d-block pb-4 sub_title textBold">맛있는거 + 맛있는거 = 맛있는게 2배!!</span>
+          <div class="container-lg">
+            <ul class="row">
+              <li class="col-12 col-lg-6 ">
+                <a href="">
+                  <img src="img/pring_cheese.jpg" alt="">
+                  <h3 class="pt-4 textBold">프링글스 체다치즈 필드</h3>
+                </a>
+                <div class="pring_back text-center">
+                  <div class="pring_intro">
+                    <div>
+                    프링글스 감자 반죽에 <span class="yellow_color">체더치즈 필링</span>을 듬뿍 넣고,
+                    <br />
+                    도넛 위에 체더치즈맛 파우더를 뿌려
+                    <br />
+                    보다 짙은<span class="yellow_color"> 치즈향에 짭짤한 감칠맛</span>을 느낄 수 있어요
+                    </div>
+                    <a href="" class="d-inline-block text-white pring_link">구매하기</a>
+                  </div>
+                </div>
+              </li>
+              <li class="col-12 col-lg-6">
+                <a href="">
+                  <img src="img/pring_choco.jpg" alt="">
+                  <h3 class="pt-4 textBold">프링글스 초코 앤 칩스</h3>
+                </a>
+                <div class="pring_back">
+                  <div class="pring_intro">
+                    <div>
+                    도넛 속에<span class="yellow_color"> 초콜릿 필링</span>을 넣고,
+                    <br />
+                    달콤한 초콜릿과 <span class="yellow_color">프링글스 칩</span>을 토핑으로 사용해서
+                    <br />
+                    바삭하면서도 달달한 초코맛을 충분히 느끼실 수 있어요
+                    </div>
+                    <a href="" class="d-inline-block text-white pring_link">구매하기</a>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="fullSection">
+      <div class="soltMenu text-center container-fluid pt-4 text-white">
+        <h2>소금<span>靑</span></h2>
+        <span class="soltMenu_text textBold">고급스러우면서 향기가 좋은 <span class="yellow_color">말돈소금</span>과 부드럽고 고소한 풍미가 뛰어난 <span class="yellow_color">우유</span>가 함께!</span>
+        <ul class="row">
+          <li class="col-12 col-lg-3">
+            <figure class="snip1361">
+              <img src="img/milkdonut.jpg" alt="로얄 우유도넛" class="rounded-circle">
+              <figcaption>
+                <div class="soltMemu_hidden">
+                  <span class="soltMenu_title textBold">로얄 우유도넛</span>
+                  <span class="soltMenu_price yellow_color">1600원</span>
+                  <span class="soltMenu_sub pb-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#fff"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"/></svg>
+                    영양정보 :1회 제공량 1개(65g) 열량 312kcal
+                    <br />
+                    당류 13g 단백질 2g 포화지방 9g 나트륨 170mg
+                  </span>
+                  <span class="soltMenu_sub">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#fff"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"/></svg>
+                    알레르기 정보 :밀, 대두, 계란, 우유
+                  </span>
+                  <a href="" class="text-white">
+                    <span class="purchase_link">구매하기</span>
+                  </a>
+                </div>
+              </figcaption>
+                <h3>로얄 우유도넛</h3>
+                <div class="soltMenu_listText">
+                  <span class="d-block"><span class="back-yellow">저지우유</span>로 반죽한 도넛에</span>
+                  <span class="d-block"><span class="back-yellow">말돈소금</span>을 첨가한 고단짠 도넛</span>
+                </div>
+            </figure>
+          </li>
+          <li class="col-12 col-lg-3">
+            <figure class="snip1361">
+                <img src="img/soltdonuts.jpg" alt="소금 우유도넛" class="rounded-circle">
+              <figcaption>
+                <div class="soltMemu_hidden">
+                  <span class="soltMenu_title textBold">소금 우유도넛</span>
+                  <span class="soltMenu_price yellow_color">1600원</span>
+                  <span class="soltMenu_sub pb-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#fff"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"/></svg>
+                    영양정보 :1회 제공량 1개(65g) 열량 312kcal
+                    <br />
+                    당류 13g 단백질 2g 포화지방 9g 나트륨 170mg
+                  </span>
+                  <span class="soltMenu_sub">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#fff"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"/></svg>
+                    알레르기 정보 :밀, 대두, 계란, 우유
+                  </span>
+                  <a href="" class="text-white">
+                    <span class="purchase_link">구매하기</span>
+                  </a>
+                </div>
+              </figcaption>
+                <h3>소금 우유도넛</h3>
+                <div class="soltMenu_listText">
+                  <span class="d-block">저지우유로 반죽한 도넛에 <span class="back-yellow">말돈소금</span>을 첨가하고</span>
+                  <span class="d-block"><span class="back-yellow">연유 글레이즈</span>를 토핑한 고단짠 도넛</span>
+                </div>
+            </figure>
+          </li>
+          <li class="col-12 col-lg-3">
+            <figure class="snip1361">
+                <img src="img/soltbite.jpg" alt="솔티 카라멜 바이츠" class="rounded-circle">
+              <figcaption>
+                <div class="soltMemu_hidden">
+                  <span class="soltMenu_title textBold">솔티 카라멜 바이츠</span>
+                  <span class="soltMenu_price yellow_color">1800원</span>
+                  <span class="soltMenu_sub pb-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#fff"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"/></svg>
+                    영양정보 :1회 제공량 1개(65g) 열량 312kcal
+                    <br />
+                    당류 13g 단백질 2g 포화지방 9g 나트륨 170mg
+                  </span>
+                  <span class="soltMenu_sub">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#fff"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"/></svg>
+                    알레르기 정보 :밀, 대두, 계란, 우유
+                  </span>
+                  <a href="" class="text-white">
+                    <span class="purchase_link">구매하기</span>
+                  </a>
+                </div>
+              </figcaption>
+                <h3>솔티 카라멜 바이츠</h3>
+                <div class="soltMenu_listText">
+                  <span class="d-block">한조각씩 나눠 먹을 수 있는 도넛에</span>
+                  <span class="d-block"><span class="back-yellow">솔티 카라멜 글레이즈</span>를 토핑한 단짠 도넛</span>
+                </div>
+            </figure>
+          </li>
+          <li class="col-12 col-lg-3">
+            <figure class="snip1361">
+                <img src="img/soltmun.jpg" alt="솔티 카라멜 먼치킨" class="rounded-circle">
+              <figcaption>
+                <div class="soltMemu_hidden">
+                  <span class="soltMenu_title textBold">솔티 카라멜 먼치킨</span>
+                  <span class="soltMenu_price yellow_color">1600원</span>
+                  <span class="soltMenu_sub pb-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#fff"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"/></svg>
+                    영양정보 :1회 제공량 1개(65g) 열량 312kcal
+                    <br />
+                    당류 13g 단백질 2g 포화지방 9g 나트륨 170mg
+                  </span>
+                  <span class="soltMenu_sub">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#fff"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"/></svg>
+                    알레르기 정보 :밀, 대두, 계란, 우유
+                  </span>
+                  <a href="" class="text-white">
+                    <span class="purchase_link">구매하기</span>
+                  </a>
+                </div>
+              </figcaption>
+                <h3>솔티 카라멜 먼치킨</h3>
+                <div class="soltMenu_listText">
+                  <span class="d-block">한입에 먹을 수 있는 먼치킨에</span>
+                  <span class="d-block"><span class="back-yellow">솔티 카라멜 글레이즈</span>를 토핑한 단짠 도넛</span>
+                </div>
+            </figure>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+
+  </div>
+</body>
+</html>

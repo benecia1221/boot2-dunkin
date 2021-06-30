@@ -1,0 +1,382 @@
+
+
+
+#hd h1 {
+  position:absolute;
+  top:0; left:2%; z-index:10;
+}
+#hd h1 img{width:200px;}
+
+.yellow_color {color:#ffd21f!important}
+.textBold {font-weight:bold}
+.back-yellow {background: linear-gradient(to top, #ffea98 50%, transparent 50% );}
+
+/* 첫 화면 슬라이드 */
+
+#fullpage .fp-slidesNav {left:50%!important;}
+#fullpage .fp-controlArrow {
+  border: 1px solid #000;
+  width: 50px;
+  height: 50px;
+  transform: rotate(45deg);
+}
+#fullpage .fp-controlArrow.fp-next {right:3%;
+  border-width: 1px 1px 0 0;
+}
+#fullpage .fp-controlArrow.fp-prev {left:3%;
+  border-width: 0 0 1px 1px;
+}
+
+
+#fullpage .main1 {background-color:#f6f6fe}
+#fullpage .main2 {background-color:#e21a27}
+#fullpage .main3 {background: linear-gradient( to bottom, #24558c, #08234e );}
+#fullpage .main4 {background-color:#fff7da}
+
+#fullpage .slide {position:relative}
+#fullpage .slide .slide_img img {position:absolute; bottom:0; right:10%;}
+#fullpage .slide .slide_title {position:absolute;top:40%;left:10%}
+#fullpage .slide .slide_title h2 {font-size:4rem;color:#092745}
+#fullpage .slide .slide_title span {display:block; font-size:2rem}
+#fullpage .slide .slide_title a {
+  border:1px solid; color:#fff;
+  padding: 12px;
+  font-size: 1.3rem;
+  border-radius:13px;
+  transition:0.5s;
+}
+#fullpage .main1 .slide_title a {background-color:#9bc2e7;}
+#fullpage .main1 .slide_title a:hover {background-color:#5883ac}
+
+#fullpage .main2 .slide_img img {right:14%}
+#fullpage .main2 .slide_img img:nth-child(2) {
+    width: 152px;
+    right: 17%;
+    top: 10%;}
+
+#fullpage .main2 .slide_title a:hover {background-color:#ffc22f}
+#fullpage .main3 .slide_title a:hover {background-color:#ffc22f}
+
+#fullpage .main4 .slide_title a {background-color:#ffe37d;color:#222;border:0}
+#fullpage .main4 .slide_title a:hover {background-color:#ffad54;color:#fff}
+#fullpage .main4 .slide_title h2 {color:coral}
+#fullpage .slide_title h2 {font-family: '양진체'}
+
+/* 상단 네비게이션 */
+
+#myMenu{
+  display:flex;
+  position:fixed;
+  left:0;right:2%;top:1%;z-index:10000;
+  justify-content: flex-end;
+}
+
+#myMenu li {
+  padding:10px 15px;
+}
+#myMenu li a {
+  text-decoration: none;
+  color:#ccc;
+  font-size:1.2rem;
+  font-weight:bold;
+}
+#myMenu .active a {color:#000}
+#myMenu li:after {
+  content:"";display:block; height:2px; width:0;
+  transition:0.5s; background:#000;margin:0 auto;
+}
+#myMenu .active:after {width:100%}
+
+
+
+/* 두번째페이지 유튜브섹션 */
+.youtube_section .youtube_link {margin:auto 0}
+.youtube_section .youtube_link div{position:relative;height:0;padding-bottom:120%;margin:auto 0}
+.youtube_link iframe {
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius:20px
+}
+.youtube_section img {width:250px;border-radius:20px}
+.event_section {background-color:rgba(255,255,255,.9);padding:30px 20px;border-radius:20px}
+.youtube_section .event_back {
+  background-color:#262398;
+  position: absolute;
+  top: 0; bottom: 0; right:0; left:0;
+  color: #fff;
+  border-radius: 15px;
+  display:none;
+}
+.youtube_section .event_ul h2 {font-family:'Cafe24Ssurround';font-size: 2.5rem; display:inline-block;   background: linear-gradient(to top, #00e6e6 50%, transparent 50% );}
+.youtube_section .event_back .event_text span {display:block;font-size:1.5rem;font-weight:bold}
+.youtube_section .event_li{position:relative}
+.youtube_section .event_li:hover .event_back {display:block}
+.youtube_section .event_back .event_text {position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:100%;}
+.youtube_section .event_back .event_text .fontSize8 {font-size:0.8rem;font-weight:normal;}
+.youtube_section .event_back .event_text span:first-child {font-size:1.3rem;font-weight:normal;}
+
+.youtube_section .event_ul h3 {display:inline-block;background: linear-gradient(to top, #ffef7a 50%, transparent 50% );}
+
+
+/* 세번째페이지 신메뉴 */
+.summerMenu .collaboMenu img {width:350px;display:block;margin:0 auto;border-radius:100%;}
+
+.summerMenu .pring_back {
+  display:none;
+  position:absolute; top:0;left:0;right:0;bottom:0;
+  color:#fff;
+  background-color: rgba(0,0,0,.8);
+  border-radius:13px;
+  font-size:1.5rem;
+}
+.summerMenu .collaboMenu li:hover .pring_back {
+  display:block
+}
+
+.summerMenu .pring_back .pring_intro {
+  position:absolute;top:50%;left:50%;
+  transform:translate(-50%,-50%);
+  width:100%;
+}
+.summerMenu .collaboMenu .sub_title {font-size:1.3rem; margin-bottom: 2rem;}
+.summerMenu .titleFont2 {
+  font-size:3rem;
+  background: linear-gradient(to top, #00e6e6 50%, transparent 50% );
+  display: inline-block;}
+.summerMenu .collaboMenu > h3 {font-family:'Cafe24Ssurround'; font-size:2.3rem;margin-top: 0.5rem;}
+
+.summerMenu .pring_back .pring_link {
+  border:1px solid #fff;
+  background-color:#3e9bff;
+  display:inline-block;
+  border-radius:13px;
+  padding:0.5rem;font-size:1.4rem;
+  margin-top: 1rem
+}
+.summerMenu .pring_back .pring_link:hover {
+  background-color:#121296
+}
+
+
+
+/* 네번째페이지 소금청 */
+
+.soltMenu img {width:340px;}
+.soltMenu > h2 {font-size:3rem;font-family:'양진체'}
+.soltMenu > h2 > span {
+  display:inline-block;font-size:3.5rem; color:#fff;
+  padding: 5px 10px;
+  background-color:#368dcc;
+  border-radius:100%
+}
+
+
+.soltMenu .soltMenu_text {font-size:1.3rem;display:block;margin-bottom:3rem}
+.soltMenu li h3 {padding-top:1.3rem;}
+.soltMenu .soltMenu_listText {background-color:#fff;border-radius:20px;width:97%;margin:0 auto;padding:1rem 0;}
+.soltMenu .soltMenu_listText span {font-size:1.2rem;color:#222;}
+
+.soltMenu .soltMemu_hidden {
+  display:none;
+  position:absolute;bottom:0;background-color:#276fa2;
+  width:100%;border-radius:20px;
+  bottom:0;left:50%;
+  transform:translateX(-50%);
+  padding:10% 0;
+}
+.soltMenu > ul > li:hover .soltMemu_hidden {display:block}
+.soltMenu .soltMemu_hidden span {display:block;font-size:2rem}
+.soltMenu .soltMemu_hidden .soltMenu_sub {font-size:1rem}
+.soltMenu .soltMemu_hidden .soltMenu_title {
+  display:inline-block;
+  background: linear-gradient(to top, #12cdd6 50%, transparent 50% );
+}
+
+
+.soltMenu .soltMemu_hidden .purchase_link {
+  font-size: 1.4rem;
+  background-color: #4249c9;
+  display: inline-block;
+  padding: 10px 15px;
+  border-radius: 13px;
+  margin-top: 25px;
+}
+
+.soltMenu .soltMemu_hidden .soltMenu_price {margin-bottom:10px;font-size:1.7rem;}
+
+#E-market .order_image {text-align:center;}
+#E-market .order_image img {width:400px;border-radius:10%}
+#E-market .title h3 {font-family:'ONE-Mobile-POP';font-size:3rem;color:#ff813e;display:inline-block;background: linear-gradient(to top, #ffeba2 50%, transparent 50% );}
+#E-market .title span {font-size:1.3rem}
+#E-market .order_contents {background-color:#fff;border-radius:20px;}
+#E-market .order_contents h3 {background-color:#fdaa21;color:#fff;font-size: 1.3rem;border-radius:20px;display:inline-block;padding:.5rem 1rem;}
+#E-market .order_contents .order_ol h4 {
+    color: #fff;
+    display: inline-block;
+    background-color: #ffcc79;
+    font-size: 1.2rem;
+    padding: .3rem .7rem;
+    border-radius: 20px; }
+#E-market .order_contents .order_ol .point {background: linear-gradient(to top, #fff2c3 50%, transparent 0% );}
+#E-market .order_contents .order_ol span {font-size:1.1rem}
+
+#E-market .emart_app img {width:145px}
+#E-market .emart_app .download {border-radius:20px;}
+#E-market .emart_app .download  h3 {font-size:1.3rem;padding-top:1rem}
+#E-market .emart_app .happypoint {margin-right:2.5rem}
+#E-market .emart_app .download .appDown_link {padding:.5rem; background-color:#fdaa21;color:#fff;}
+
+
+/* 호버시 이벤트 */
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,800);
+figure.snip1200 {
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 220px;
+  max-width: 310px;
+  max-height: 310px;
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+}
+figure.snip1200 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.45s ease-in-out;
+  transition: all 0.45s ease-in-out;
+}
+figure.snip1200 img {
+  max-width: 100%;
+  position: relative;
+  opacity: 0.9;
+}
+figure.snip1200 figcaption {
+  position: absolute;
+  top: 45%;
+  left: 7%;
+  right: 7%;
+  bottom: 45%;
+}
+figure.snip1200 .heading {
+  overflow: hidden;
+  -webkit-transform: translateY(50%);
+  transform: translateY(50%);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+figure.snip1200 h2 {
+  display: table;
+  margin: 0 auto;
+  padding: 0 10px;
+  position: relative;
+  text-align: center;
+  width: auto;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+figure.snip1200 h2 span {
+  font-weight: 800;
+}
+figure.snip1200 h2:before,
+figure.snip1200 h2:after {
+  position: absolute;
+  display: block;
+  width: 1000%;
+  height: 1px;
+  content: '';
+  background: white;
+  top: 50%;
+}
+figure.snip1200 h2:before {
+  left: -1000%;
+}
+figure.snip1200 h2:after {
+  right: -1000%;
+}
+figure.snip1200 p {
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  position: absolute;
+  width: 100%;
+  padding: 0 20px;
+  margin: 0;
+  opacity: 0;
+  line-height: 1.6em;
+  font-size: 0.9em;
+}
+figure.snip1200 a {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  z-index: 1;
+}
+figure.snip1200:hover img,
+figure.snip1200.hover img {
+  opacity: 0.25;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+figure.snip1200:hover figcaption,
+figure.snip1200.hover figcaption {
+  top: 7%;
+  bottom: 7%;
+}
+figure.snip1200:hover p,
+figure.snip1200.hover p {
+  opacity: 1;
+  -webkit-transition-delay: 0.35s;
+  transition-delay: 0.35s;
+}
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+@import url(https://fonts.googleapis.com/css?family=Quattrocento);
+.snip1361 {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+.snip1361 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.snip1361 img {
+  max-width: 100%;
+  vertical-align: top;
+}
+.snip1361 figcaption {
+  position: absolute;
+  top: calc(77%);
+  width: 100%;
+  padding: 15px 25px 65px;
+
+}
+.snip1361 h3,
+.snip1361 p {
+  margin: 0 0 10px;
+}
+.snip1361 p {
+  font-size: 0.9em;
+  letter-spacing: 1px;
+  opacity: 0.9;
+}
+.snip1361 a {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+.snip1361:hover figcaption,
+.snip1361.hover figcaption {
+  top: 65%;
+}
